@@ -62,18 +62,12 @@ $data = $_GET['id'];
 
 
                     <div class="card-tools">
-                        <button type="button" id="del" data-toggle="modal" data-target="#modal-reset"
-                            data-toggle="tooltip" title="Reset this subject" class="btn btn-tool"><i
-                                class="fas fa-recycle"></i>
-                        </button>
+
                         <button type="button" id="del" data-toggle="modal" data-target="#modal-edit"
                             data-toggle="tooltip" title="Edit Time allowed, Questions to be attempted and Instructions"
                             class="btn btn-tool"><i class="fas fa-clock"></i>
                         </button>
-                        <button type="button" id="del" data-toggle="modal" data-target="#modal-delete"
-                            data-toggle="tooltip" title="Delete a question" class="btn btn-tool"><i
-                                class="fas fa-trash"></i>
-                        </button>
+
                         <button type="button" data-toggle="tooltip" title="Maximize" class="btn btn-tool"
                             data-card-widget="maximize"><i class="fas fa-expand"></i>
                         </button>

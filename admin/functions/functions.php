@@ -196,8 +196,7 @@ if(isset($_POST['catclass']) && isset($_POST['subject']) && isset($_POST['hour']
 
 
 	//check if table exit
-	if(table_exist($conc)) {
-
+	if(table_exist($conc)) {7
 			$errors[] = "This table database exit! <a style='color: white;' href='./uploaded?id=$conc'>Click here to edit or preview questions</a>";
 		} else {
 

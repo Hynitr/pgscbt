@@ -43,6 +43,7 @@
             <span class="contact100-form-symbol">
                 <img src="images/logo.png" alt="<?php echo $call['school'] ?>">
             </span>
+
             <form method="post" class="contact100-form validate-form flex-sb flex-w">
                 <span class="contact100-form-title">
                     <?php echo $call['school'] ." ". date("Y") ?>
@@ -67,8 +68,8 @@
                 </div>
             </form>
             <br />
-            <p align="center">&copy; <?php echo $call['school'] ." ". date("Y") ?> | Developed by: <a href="https://hynitr.com"><span
-                        style="color: red;"> hynitr</span> </p>
+            <p align="center">&copy; <?php echo $call['school'] ." ". date("Y") ?> | Developed by: <a
+                    href="https://hynitr.com"><span style="color: red;"> hynitr</span> </p>
         </div>
 
     </div>

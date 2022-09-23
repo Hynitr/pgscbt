@@ -333,7 +333,7 @@ confirm($result);
 //time allowed
 
 $sqll = "INSERT INTO timer(`subject`, `hour`, `min`, `attempt`, `instruct`, `acesscode`)";
-$sqll.= " VALUES('$conc', '$jsshour', '$jssminutes', '$jssquess', '$jssedit', `cbtexam`)";
+$sqll.= " VALUES('$conc', '$jsshour', '$jssminutes', '$jssquess', '$jssedit', 'cbtexam')";
 $resullt = query($sqll);
 confirm($resullt);
 
@@ -417,7 +417,7 @@ confirm($result);
 //time allowed
 
 $sqll = "INSERT INTO timer(`subject`, `hour` , `min`, `attempt`, `instruct`, `acesscode`)";
-$sqll.= " VALUES('$conc', '$sshour' , '$ssminutes', '$ssquess', '$ssedit', `cbtexam`)";
+$sqll.= " VALUES('$conc', '$sshour' , '$ssminutes', '$ssquess', '$ssedit', 'cbtexam')";
 $resullt = query($sqll);
 confirm($resullt);
 
@@ -498,7 +498,7 @@ confirm($result);
 //time allowed
 
 $sqll = "INSERT INTO timer(`subject`, `hour`, `min`, `attempt`, `instruct`, `acesscode`)";
-$sqll.= " VALUES('$conc', '$othour', '$otminutes', '$otquess', '$otedit', `cbtexam`)";
+$sqll.= " VALUES('$conc', '$othour', '$otminutes', '$otquess', '$otedit', 'cbtexam')";
 $resullt = query($sqll);
 confirm($resullt);
 
